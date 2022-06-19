@@ -30,7 +30,7 @@ const helloWorld = function() {
   return ''
 }
 
-module.exports = helloWorld
+module.ex ports = helloWorld
 ```
 In this file we have a simple function called helloWorld that returns an empty string... which is exactly what our test was complaining about.  The `module.exports` on the last line is how we export the function so that it can be imported with `require()` in the spec file.
 
